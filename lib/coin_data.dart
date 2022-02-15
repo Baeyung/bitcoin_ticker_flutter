@@ -1,3 +1,5 @@
+//import 'package:bitcoin_ticker_flutter/networking.dart';
+
 const List<String> currenciesList = [
   'AUD',
   'BRL',
@@ -28,4 +30,9 @@ const List<String> cryptoList = [
   'LTC',
 ];
 
-class CoinData {}
+class CoinData {
+  // Future<dynamic> getRate(String coin, String currency) async {
+  //   dynamic rate = await Networking().getCoinData(currency, coin);
+  //   return rate;
+  // }
+}
